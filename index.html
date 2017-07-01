@@ -4,7 +4,7 @@
 <title> snake game </title>  
 <style>  
 #mapbox {  
-  font-family: ËÎÌå; font-size: 17px; line-height:100%;  
+  font-family: Ã‹ÃŽÃŒÃ¥; font-size: 17px; line-height:100%;  
   height:360; width:430;  
 }  
 </style>  
@@ -40,8 +40,8 @@ function mapClass(x,y)
 {  
   this.x = x;  
   this.y = y;  
-  this.sq = "¡ö";  
-  this.sk = "¡¡";  
+  this.sq = "Â¡Ã¶";  
+  this.sk = "Â¡Â¡";  
   this.marr = [];  
   for(var iy=0; iy<this.y; iy++)  
   {  
@@ -80,7 +80,7 @@ mapClass.prototype.jcxy = function(x,y,s)
 function snakeClass(po)  
 {  
   this.parent = po;  
-  this.mt = "¡ñ";  
+  this.mt = "Â¡Ã±";  
   this.boarr = [];  
   this.bolength = 4;  
   this.fang = 1;  
@@ -140,7 +140,7 @@ snakeClass.prototype.stoporrun = function()
 function beanClass(po)  
 {  
   this.parent = po;  
-  this.mt = "¡ò";  
+  this.mt = "Â¡Ã²";  
   this.sne = -100;  
 }  
   
@@ -166,7 +166,7 @@ beanClass.prototype.newbean = function()
 <center>  
 <h2>snake</h2><hr>  
 <div id="mapbox"></div>  
-<input type="button" value="¿ªÊ¼" onclick="play()"> score£º<span id="fan"></span>  
+<input type="button" value="Â¿ÂªÃŠÂ¼" onclick="play()"> scoreÂ£Âº<span id="fan"></span>  
 <hr>  
 </center>  
 </body>  
