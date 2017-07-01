@@ -41,7 +41,7 @@ function mapClass(x,y)
   this.x = x;  
   this.y = y;  
   this.sq = "■";  
-  this.sk = "¡¡";  
+  this.sk = "　";  
   this.marr = [];  
   for(var iy=0; iy<this.y; iy++)  
   {  
@@ -80,7 +80,7 @@ mapClass.prototype.jcxy = function(x,y,s)
 function snakeClass(po)  
 {  
   this.parent = po;  
-  this.mt = "¡ñ";  
+  this.mt = "●";  
   this.boarr = [];  
   this.bolength = 4;  
   this.fang = 1;  
@@ -140,7 +140,7 @@ snakeClass.prototype.stoporrun = function()
 function beanClass(po)  
 {  
   this.parent = po;  
-  this.mt = "¡ò";  
+  this.mt = "◎";  
   this.sne = -100;  
 }  
   
